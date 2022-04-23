@@ -7,8 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Address {
-    private long id;
+public class Address extends GenericModel {
     private String street;
     private String suite;
     private String city;

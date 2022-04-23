@@ -7,8 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Company {
-    private long id;
+public class Company extends GenericModel {
     private String name;
     private String catchPhrase;
     private String bs;

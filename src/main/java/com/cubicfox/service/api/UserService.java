@@ -5,6 +5,6 @@ import com.cubicfox.model.User;
 import java.util.List;
 
 public interface UserService {
-    List<User> saveUsers(List<User> users);
+    List<User> saveUsers(List<User> users) throws Exception;
     void clearAll();
 }
