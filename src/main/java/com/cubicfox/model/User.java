@@ -8,8 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class User {
-    private long id;
+public class User extends GenericModel {
     private String name;
     private String username;
     private String email;

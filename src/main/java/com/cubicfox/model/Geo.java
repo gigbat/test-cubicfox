@@ -7,8 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Geo {
-    private long id;
+public class Geo extends GenericModel {
     private double lat;
     private double lng;
 }

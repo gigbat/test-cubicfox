@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    public List<User> saveUsers(List<User> users) {
+    public List<User> saveUsers(List<User> users) throws Exception {
         return users.stream().peek(user -> {
             Geo geo = geoDao.saveGeo(user);
             LOG.info("Saved geo data.");
