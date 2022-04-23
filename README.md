@@ -49,4 +49,4 @@ https://jsonplaceholder.typicode.com/users
 - Once you start the server and type in the search section `http://localhost:8080` you save immediately data in our database. Our endpoint is configured on the main page, but it can be replaced on another path just by replacing the annotation `@GetMapping` on yourself.
 - If you try to do the GET request one more time you will get an exception. You need to drop your tables an try to send a request again.
 - Be careful! If you run the server using the starter class or unit tests you need to replace in the property file the line `postgres.url=jdbc:postgresql://postgres:5432/` exactly word `postgres` to `localhost`.
-- :collision: Be careful! If you run the server using Docker you need to replace in the property file the line `postgres.url=jdbc:postgresql://localhost:5432/` exactly word `localhost` to `postgres`.
+- Be careful! If you run the server using Docker you need to replace in the property file the line `postgres.url=jdbc:postgresql://localhost:5432/` exactly word `localhost` to `postgres`.
