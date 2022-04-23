@@ -24,7 +24,7 @@ https://jsonplaceholder.typicode.com/users
 2. Install Docker.
 3. Copy this project by the link `https://github.com/gigbat/test-cubicfox.git`.
 4. Go to the root folder and run `docker compose build`.
-5. Go to your browser and type in the search section `http://localhosta:8080/`
+5. Go to your browser and type in the search section `http://localhost:8080/`
 
 :exclamation: Please, after finished working with Docker stop all containers to avoid any conflicts :exclamation:
 `docker compose down`.
@@ -38,7 +38,7 @@ https://jsonplaceholder.typicode.com/users
 6. Go to the resources folder and replace the line `postgres.url=jdbc:postgresql://postgres:5432/` exactly word `postgres` to `localhost`.
 7. Go to the PostgreSQL server and create the server with the name `postgres`, create the user with the name `postgres`, the password - `password`, the database - `cubicfox`.
 8. Go to the project and start the starter class named `TestApplication.java`.
-9. Go to your browser and type in the search section `http://localhosta:8080/`
+9. Go to your browser and type in the search section `http://localhost:8080/`
 
 ## How to run UNIT tests ##
 1. Install Java 8+.
