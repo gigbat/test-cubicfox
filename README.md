@@ -24,7 +24,7 @@ https://jsonplaceholder.typicode.com/users
 2. Install Docker.
 3. Copy this project by the link `https://github.com/gigbat/test-cubicfox.git`.
 4. Go to the root folder and run `docker compose build`.
-5. Go to the root folder and open the `docker-compose.yaml` file. Run all services.
+5. Go to the root folder and open the `docker-compose.yaml` file. Run all services. (Or you can just execute this command `docker compose up`.)
 6. Go to your browser and type in the search section `http://localhost:8080/`
 
 :exclamation: Please, after finished working with Docker stop all containers to avoid any conflicts :exclamation:
